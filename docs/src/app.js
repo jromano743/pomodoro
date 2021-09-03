@@ -6,8 +6,8 @@ let isPause = false;
 let isEnd = false;
 let time = document.getElementById('time');
 
-const alarm = new Audio("../assets/sounds/pomodoro_alarm.wav");
-const sound = new Audio("../assets/sounds/pomodoro_sound.wav");
+const alarm = new Audio("assets/sounds/pomodoro_alarm.wav");
+const sound = new Audio("assets/sounds/pomodoro_sound.wav");
 
 alarm.loop = true;
 
