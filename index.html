@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div id="container" class="center">
+        <div class="leaf"></div>
+        <div class="pomodoro center" id="0">
+            <p id="time">25:00</p>
+            <div class="controls">
+                <button class="pomodoro-ui" onclick="startPomodoro()"><img src="./assets/icons/play.png" alt="Play button"></button>
+                <button class="pomodoro-ui" onclick="pausePomodoro()"><img src="./assets/icons/pause.png" alt="Play button"></button>
+                <button class="pomodoro-ui" onclick="stopPomodoro()"><img src="./assets/icons/stop.png" alt="Play button"></button>
+            </div>
+        </div>
+    </div>
+    <script src="./src/app.js"></script>
+</body>
+</html>
